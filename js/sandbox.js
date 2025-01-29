@@ -1,8 +1,10 @@
-$(document).ready(function(){
-    $("#myImage").hover(function(){
-      $(this).css("src", "img/Bartholomew Bear heart.jpg");
-      }, function(){
-      $(this).css("src", "img/Bartholomew Bear pumpkin.jpg");
+
+    $(".myImage").hover(function(){
+      $(".overview").attr("src","img/bartholomew bear heart.jpg");
     });
-  });
-  
+  $(".myImage").hover(function(){
+      $(".overview").attr("src","img/bartholomew bear pumpkin.jpg");
+    });
+  $(".myImage").hover(function(){
+      $(".overview").attr("src","img/bartholomew bear strawberry.jpg");
+    });
