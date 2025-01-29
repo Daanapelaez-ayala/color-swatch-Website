@@ -8,3 +8,6 @@
   $(".myImage").hover(function(){
       $(".overview").attr("src","img/bartholomew bear strawberry.jpg");
     });
+  
+
+    
